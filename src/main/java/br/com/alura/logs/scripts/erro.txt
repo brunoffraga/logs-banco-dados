@@ -1,0 +1,10 @@
+Correto:
+
+404 é "Recurso não encontrado"
+405 é "Método HTTP não permitido"
+500 é "Erro interno no servidor"
+Outro código famoso é o 200 que significa que a requisição executou com Sucesso!
+
+
+
+Correto, é um código da "família" 300. Esses códigos de resposta indicam um redirecionamento.

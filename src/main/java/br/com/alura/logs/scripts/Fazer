@@ -1,0 +1,8 @@
+link
+http://localhost/Logs/fromNovaEmpresa.html
+Verificar o que esta acontecendo que não funciona com o mysql
+
+Erro: 500
+-> 500 é "Erro interno no servidor"
+console
+-> Could not initialize class br.com.alura.logs.util.JPAUtil
