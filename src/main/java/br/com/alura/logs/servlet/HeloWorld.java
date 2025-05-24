@@ -14,17 +14,17 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = "/oi")
 public class HeloWorld extends HttpServlet{
 
-	//requiziÁ„o -> pergunta e resposta
+	//requizi√ß√£o -> pergunta e resposta
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
 		PrintWriter out = resp.getWriter();
 		out.println("<html>");
 		out.println("<body>");
-		out.println("parabens seu lindo");
+		out.println("Parabens!!!");
 		out.println("</body>");
 		out.println("</html>");
 		
-		System.out.println("esta funcionando no tomcat");
+		System.out.println("est√° funcionando no tomcat");
 	}
 }
