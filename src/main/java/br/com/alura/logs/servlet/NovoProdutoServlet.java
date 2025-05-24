@@ -18,11 +18,11 @@ public class NovoProdutoServlet extends HttpServlet {
 
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		//pegar o que esta me fornecendo e transformar em uma string
+		//pegar o que está me fornecendo e transformar em uma string
 		String nomeProduto = req.getParameter("nome");
 		//inicializar o que vou devolver
 		PrintWriter out = resp.getWriter();
-		//reponder
+		//responder
 		out.print("<html><body>Cadastrado " + nomeProduto + " funcionario com sucesso</body></html>");
 	}
 
