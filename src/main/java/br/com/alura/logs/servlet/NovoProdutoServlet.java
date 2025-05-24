@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class NovoProdutoServlet
+ * Servlet implementando a classe NovoProdutoServlet
  */
 @WebServlet("/novoProduto")
 public class NovoProdutoServlet extends HttpServlet {
